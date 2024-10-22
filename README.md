@@ -1,8 +1,5 @@
 # Image Captioning
 
-## Author: Amirmahdi Aramideh
-
-### October 2024
 
 ---
 
@@ -22,24 +19,6 @@ Generating meaningful image captions requires effectively handling various chall
 4. **Evaluation Metrics**: Choosing appropriate evaluation metrics for the generated captions.
 5. **Cross-Modal Learning**: Aligning image and textual data effectively.
 
----
-
-## Methodology
-
-This project leverages a variety of machine learning techniques:
-
-1. **CNN + RNN Approach**: 
-   - A **ResNet-50** model is used as the image feature extractor (Encoder).
-   - The **LSTM** network generates sequences of words for image captions (Decoder).
-
-2. **Attention Mechanism**: 
-   - Helps the model focus on specific parts of the image while generating captions.
-
-3. **Transformer Networks**: 
-   - Explores the use of self-attention for better sequence processing.
-
-4. **Transfer Learning**: 
-   - Utilizes a pre-trained **ResNet-50** for extracting visual features.
 
 ---
 
